@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    
+</head>
+<style>
+    #form-dn{
+        height: 400px;
+        width: 100%;
+        background-color: #8cec96;
+        position:relative;
+    }
+    .singapore{
+        background-color: blanchedalmond;
+    }
+    .container{
+        background-color:yellow;
+    }
+    .img-form{
+        width: 400px;
+        height: auto;
+    }
+    .comment-box{
+        height: 500px;
+        text-align: left;
+    }
+    .box1{
+        text-align: center;
+    }
+    .box3{
+        text-align: center;
+    }
+    .box2{
+        text-align: left;
+        margin-left: 200px;
+    }
+
+
+</style>
+<body>
+    <section class="menuhinh">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <div class="slide first">
+                    <img src="./images/malaysia.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./images/hinhduhoc1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./images/hinhduhoc3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./images/hinhduhoc4.jpg" alt="">
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+    </section>
+<br>
+<div class="comment-box">
+    <br>
+    <div class="box1">
+        <h2 style="color: red;">Đăng kí du học Malaysia</h2>
+    </div>
+    <div class="box2">
+    <form action="#">
+        Họ và Tên: <br>
+         <input type="text" name="full-name" placeholder="Tên của bạn..."><br>
+        Ngày sinh: <br>
+         <input type="datetime" name="full-name" placeholder="Ngày tháng năm sinh..."><br>
+        Số điện thoại: <br>
+         <input type="text" name="full-name" placeholder="Số điện thoại...">
+        <br>
+        Email của bạn: <br>
+         <input type="email" name="email" placeholder="Email của bạn...">
+        <br>
+    </div>
+    <div class="box3">
+        </form>
+            <tr>
+                <td class="lable">Hình thức :</td>
+                <td>
+                    <select name="hinhthuc">
+                    <option value="bantru">Bán trú</option>
+                    <option value="noitru">Nội trú</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="lable">Bạn muốn du học trong bao lâu ?</td>
+                <td>
+                    <select name="thoihan">
+                        <option value="motnam">1 năm</option>
+                        <option value="hainam">2 năm</option>
+                        <option value="banam">3 năm</option>
+                        <option value="bonnam">4 năm</option>
+                        <option value="namnam">5 năm</option>
+                        <option value="saunam">6 năm</option>
+                        <option value="baynam">7 năm</option>
+                        <option value="tamnam">8 năm</option>
+                        <option value="chinnam">9 năm</option>
+                        <option value="muoinam">10 năm</option>
+                    </select>
+                </td>
+            </tr>
+        <br>
+        <br>
+        
+           
+        <tr>
+            <td colspan = "2" style = "text-align: center">
+                <button type = "button" onclick="myFunction()">Đăng ký</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan = "2" id = "demo"></td>
+        </tr>
+        <br>
+    </form>
+</div>
+</div>
+    <script>
+        var x = document.getElementById("myText").value;
+        function myFunction() {
+        document.getElementById("myText").value;
+        document.getElementById(
+        "demo").innerHTML ="Chúc mừng "+ x +" .Bạn đã đăng kí thành công! Chúng tôi sẽ liên lạc vào số điện thoại và email mà bạn đã cung cấp để tư vấn miễn phí ạ. ";
+        }
+    </script>
+    <div class="malaysia">
+    <p>Với sự cạnh tranh toàn cầu đang trở nên gay gắt, nhiều bậc phụ huynh đã lựa chọn con đường du học cho con em mình, để vừa tiếp cận được với môi trường giáo dục quốc tế chuyên nghiệp, vừa được cập nhật những kiến thức chuyên ngành nhằm hỗ trợ cho việc tìm kiếm vị trí công việc tốt hơn trong tương lai.
+        Thông tin từ Văn phòng Giáo dục Malaysia tại TP.HCM cho biết, năm 2017 có trên 170.000 sinh viên quốc tế theo học tại Malaysia. Riêng Việt Nam tính đến tháng 6/2018, có 660 sinh viên đang theo học các ngành như: kỹ thuật, y tế, khoa học xã hội, kinh doanh và pháp luật, giáo dục, điện toán, dịch vụ, nghệ thuật và nhân văn, vv… Hãy cùng điểm qua một vài "điểm cộng" nổi bật mà bạn sẽ có được khi du học tại Malaysia.</p>
+        <h1><b>A. ĐÔI NÉT VỀ ĐẤT NƯỚC MALAYSIA</b></h1>
+        <p>Được mệnh danh là Thiên đường nhiệt đới giữa Đông Nam Á, đất nước Malaysia đặc biệt thu hút với sự kết hợp hài hòa giữa đa sắc tộc, văn hóa và tín ngưỡng. Khí hậu ấm áp quanh năm. Các bạn có thể hình dung khí hậu Malaysia khá giống khu vực miền Nam nước mình, có hai mùa chủ yếu là nắng và mưa. Điều đặc biệt là Malaysia không bị ảnh hưởng nhiều bởi các thảm họa thiên nhiên.
+
+            Lãnh thổ Malaysia chia làm 02 phần: Tây Malaysia và Đông Malaysia. Tây Malaysia là một bán đảo xinh đẹp, bờ Tây được bao quanh bởi eo Malacca, phía Bắc giáp với láng giềng Thái Lan và Singapore tọa lạc ngay tại phía Nam. Tây Malaysia bao gồm 11 bang và 2 vùng đất thuộc liên bang (Federal Territories). Đông Malaysia bao gồm 2 bang lớn là Sabah và Sarawak, nằm ngay khu vực phía Bắc đảo Borneo, mỗi bang đều có những điểm nổi bật riêng thu hút nhiều du khách.</p>
+            <h1><b>B. NỀN GIÁO DỤC TIÊN TIẾN</b></h1>
+            <p>Nền giáo dục của Malaysia đã được xếp vào top 10 điểm đến thu hút du học sinh của UNESCO năm 2016? Đây là một điểm nhấn cho thấy sự phát triển rõ ràng của nền giáo dục ở quốc gia này. Môi trường học tập quốc tế giảng dạy hoàn toàn bằng tiếng Anh, hệ thống cơ sở vật chất hiện đại, đội ngũ giáo viên thân thiện, nhiều kinh nghiệm và có chuyên môn cao là một điểm cộng so với môi trường giáo dục của các nước khác trong khu vực.
+
+                Malaysia còn là quốc gia tập trung nhiều trường Đại học có tiếng trên thế giới (theo đánh giá của QS World University Rankings 2019)
+            </p>
+            <h1>TOP NHỮNG TRƯỜNG ĐẠI HỌC TỐT NHẤT TẠI MALAYSIA</h1>
+            <ul>
+                <li>UNIVERSITY MALAYSIA (UM) </li>
+                <li>UNIVERSITY KEBANGSAAN MALAYSIA (UKM) </li>
+                <li>UNIVERSITY PUTRA MALAYSIA (UPM) </li>
+                <li>UNIVERSITY SAINS MALAYSIA (USM) </li>
+                <li>UNIVERSITY TEKNOLOGI MALAYSIA (UTM) </li>
+            </ul>
+            <h3>Du học Malaysia cần những gì ?</h3>
+            <ol>
+                <li>8 tấm ảnh 3.5x4.5 nền trắng</li>
+                <li>Passport (tất cả các trang)</li>
+                <li>Bằng cấp 3</li>
+                <li>Học bạ cấp 3</li>
+                <li>Bảng điểm đại học (nếu có)</li>
+                <li>Bằng đại học (nếu có)</li>
+                <li>Giấy xác nhận kinh nghiệm việc làm (nếu có)</li>
+                <li>IELTS hoặc các chứng chỉ tiếng Anh khác</li>
+            </ol>
+        </div>
+</body>
+</html>

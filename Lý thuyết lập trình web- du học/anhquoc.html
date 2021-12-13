@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    
+</head>
+<style>
+    #form-dn{
+        height: 400px;
+        width: 100%;
+        background-color: #8cec96;
+        position:relative;
+    }
+    .singapore{
+        background-color: blanchedalmond;
+    }
+    .container{
+        background-color:yellow;
+    }
+    .img-form{
+        width: 400px;
+        height: auto;
+    }
+    .comment-box{
+        height: 500px;
+        text-align: left;
+    }
+    .box1{
+        text-align: center;
+    }
+    .box3{
+        text-align: center;
+    }
+    .box2{
+        text-align: left;
+        margin-left: 200px;
+    }
+
+
+</style>
+<section class="menuhinh">
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <div class="slide first">
+                <img src="./images/anhquoc.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="./images/hinhduhoc1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./images/hinhduhoc3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./images/hinhduhoc4.jpg" alt="">
+            </div>
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+</section>
+<div class="comment-box">
+    <br>
+    <div class="box1">
+        <h2 style="color: red;">Đăng kí du học Anh Quốc</h2>
+    </div>
+    <div class="box2">
+    <form action="#">
+        Họ và Tên: <br>
+         <input type="text" name="full-name" placeholder="Tên của bạn..."><br>
+        Ngày sinh: <br>
+         <input type="datetime" name="full-name" placeholder="Ngày tháng năm sinh..."><br>
+        Số điện thoại: <br>
+         <input type="text" name="full-name" placeholder="Số điện thoại...">
+        <br>
+        Email của bạn: <br>
+         <input type="email" name="email" placeholder="Email của bạn...">
+        <br>
+    </div>
+    <div class="box3">
+        </form>
+            <tr>
+                <td class="lable">Hình thức :</td>
+                <td>
+                    <select name="hinhthuc">
+                    <option value="bantru">Bán trú</option>
+                    <option value="noitru">Nội trú</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="lable">Bạn muốn du học trong bao lâu ?</td>
+                <td>
+                    <select name="thoihan">
+                        <option value="motnam">1 năm</option>
+                        <option value="hainam">2 năm</option>
+                        <option value="banam">3 năm</option>
+                        <option value="bonnam">4 năm</option>
+                        <option value="namnam">5 năm</option>
+                        <option value="saunam">6 năm</option>
+                        <option value="baynam">7 năm</option>
+                        <option value="tamnam">8 năm</option>
+                        <option value="chinnam">9 năm</option>
+                        <option value="muoinam">10 năm</option>
+                    </select>
+                </td>
+            </tr>
+        <br>
+        <br>
+        
+           
+        <tr>
+            <td colspan = "2" style = "text-align: center">
+                <button type = "button" onclick="myFunction()">Đăng ký</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan = "2" id = "demo"></td>
+        </tr>
+        <br>
+    </form>
+</div>
+</div>
+    <script>
+        var x = document.getElementById("myText").value;
+        function myFunction() {
+        document.getElementById("myText").value;
+        document.getElementById(
+        "demo").innerHTML ="Chúc mừng "+ x +" .Bạn đã đăng kí thành công! Chúng tôi sẽ liên lạc vào số điện thoại và email mà bạn đã cung cấp để tư vấn miễn phí ạ. ";
+        }
+    </script>
+    <div class="malaysia">
+    <p><strong style="color: red;">Du học Anh Quốc </strong><br> Là một trong 2 nền giáo dục tốt nhất thế giới, là quê hương của tiếng Anh – ngôn ngữ quốc tế, đồng thời là cái nôi của nền kinh tế, văn hóa châu Âu, những yếu tố này đã giúp Anh Quốc trở thành một trong những điểm đến lý tưởng nhất của các bạn du học sinh. Ở Anh Quốc, bạn không chỉ tìm thấy Tháp Big Ben, Cung điện Burkingham hay những đội bóng nổi tiếng, tại đây bạn cũng có thể tìm thấy những Đại học danh tiếng như Oxford hay Cambridge,..vv</p><br>
+    <p><strong style="color: red;">Nhu cầu du học Anh Quốc tại Việt Nam </strong>Anh Quốc là nơi có nhiều trường đại học danh tiếng, văn hóa là sự giao thoa giữa nét cổ điển và phong cách hiện đại. Tại đây chào đón khoảng 240.000 du học sinh quốc tế mỗi năm. Theo thống kê của Bộ giáo dục và đào tạo, năm 2016 Việt Nam có 130.000 công dân học tập tại nước ngoài, trong đó du học sinh Anh Quốc là 11.000, chiếm gần 10%.</p>
+    <p><strong style="color: red;">Tại sao lại có nhiều người chọn du học Anh Quốc đến vậy ? </strong> <br>
+        Các chương trình của Anh có chuẩn chất lượng thuộc loại cao nhất trên thế giới. Chất lượng được chính phủ đảm bảo với sự hỗ trợ của các tổ chức và cơ chế đánh giá chặt chẽ. Hệ thống đảm bảo chất lượng bên trong và bên ngoài cung cấp bảng xếp hạng và báo cáo thông qua website của Tổ chức quản lý chất lượng </p> <br>
+        <p><b>Học phí và sinh hoạt hợp lý</b></p>
+        <p>Có sự chênh lệch rất lớn về học phí cũng như phí sinh hoạt giữa các trường, các ngành học và các thành phố khác nhau tại Anh Quốc. Học phí hệ Đại học/Cao học trung bình tại các trường công lập vào khoảng 12.000-19.000 GPB/năm tuy nhiên đối với các trường tư, học phí có thể lên tới 30.000-35.000 GBP/năm. Học phí các ngành Kinh tế, Tài chính,..vv thường sẽ rẻ hơn rất nhiều so với các ngành Y, Dược, Công nghê sinh học, Luật,..vv. Còn về phí sinh hoạt, theo báo cáo của Cục di trú Anh, mức sinh hoạt trung bình hàng tháng của du học sinh tại London là 1,100 GPB, còn tại các thành phố khác là vào khoảng 700-1000 GPB. Như vậy, các bạn cần phải tìm hiểu và lập kế hoạch kỹ lưỡng để lựa chọn trường và điểm đến hợp lý với điều kiện kinh tế của gia đình nhé.</p>
+        <p><b>Chương trình học đa dạng, thời gian học rút ngắn</b></p>
+        <p>Tại Anh Quốc, có rất nhiều chương trình học để bạn có thể lựa chọn. Ví dụ một bạn học sinh 17 tuổi, học hết lớp 11 có thể lựa chọn học những chương trình sau: A-level, International Baccalaureate hoặc Foundation. Vì vậy học sinh rất dễ để lựa chọn chương trình học phù hợp với năng lực của bản thân..</p>
+        Anh là địa điểm lý tưởng để sinh viên có thể khám phá phần còn lại của Châu Âu. Hệ thống tầu cao tốc, đường xá, và sân bay tuyệt vời cho phép các lữ khách có những chuyến du lịch ít tốn kém và thoải mái. Thẻ sinh viên quốc tế cho phép sinh viên thụ hưởng giá vé giảm khi du lịch. Du lịch tới Châu Âu cũng giúp họ có cơ hội tìm hiểu thêm các nền văn hóa và lối sống khác nhau.
+
+Tuy nhiên để du học Anh quốc không phải là điều dễ dàng đối với tất cả các bạn muốn đến nước anh du học. Để đến được Anh Quốc du học thì bạn phải đáp ứng đủ điều kiện của họ. Vậy du học Anh cần gì ? Du học Anh cần những điều kiện nào ? du học anh cần ielts bao nhiêu ? Du học Anh hết bao nhiêu tiền? tất cả sẽ được công ty tư vấn du học Bluesea trả lời trong bài viết này: 
+            Trong khi đó, đại học khoa học ứng dụng là những trường có giáo trình tiếp cận thực tế, chú trọng kỹ năng giải quyết vấn đề cụ thể. Chương trình cử nhân yêu cầu sinh viên hoàn thành chương trình trung học phổ thông, IELTS 6.0/TOEFL iBT 80. Đối với bậc học thạc sĩ, các trường yêu cầu sinh viên phải tốt nghiệp đại học, IELTS 6.5/TOEFL iBT 90, một số trường sẽ yêu cầu số năm kinh nghiệm làm việc. Hệ thống trường khoa học ứng dụng của Hà Lan không yêu cầu GMAT. Nếu sinh viên nhập học bậc cử nhân/thạc sĩ nhưng chưa đủ trình độ tiếng Anh thì có thể theo học chương trình dự bị tại các trường.</p>
+            <p><strong style="color:red;">Điều kiện du học Anh Quốc </strong>.</p>
+            <p><strong style="color:blue;">Bạn phải đủ điều kiện về tài chính </strong>.</p>
+
+            Một trong những điều kiện để đi du học Anh không kém phần quan trọng chính là chứng minh tài chính du học của bạn. Đối với Anh quốc, điều này chỉ hợp lệ khi tài khoản ngân hàng đứng tên bạn bắt buộc phải được mở tối thiểu 28 ngày kể từ ngày bạn nộp đơn xin du học tại nước sở tại. Nếu như tài khoản đứng tên bố mẹ thì cần có giấy bảo trợ cho bạn từ phía bố mẹ. Số tiền trong tài khoản này cần phải đảm bảo đủ cho 1 năm đầu tiên của bạn tại Anh quốc.
+            </p>
+            <p><strong style="color:blue;">Bạn phải được cấp Visa du học </strong>.</p><br>
+            <p>Nước Anh là quốc gia áp dụng hình thức xét duyệt visa dựa trên hệ thống thang điểm (Points-Based System). Để được cấp visa du học Anh thì bạn phải chứng minh với Lãnh sự quán rằng bạn được chấp nhận vào một khóa học tại một ngôi trường, cơ sở đào tạo đã được Cục Biên giới Anh cấp phép. Bên cạnh đó, bạn cũng phải cung cấp những bằng chứng để chứng tỏ gia đình có đủ tiềm lực tài chính để hỗ trợ bạn trong suốt thời gian học tập tại Anh. Ngoài ra, bạn cũng phải cung cấp đầy đủ các thông tin nhận dạng cá nhân ở Lãnh sự quán Anh tại Việt Nam.</p>
+            <p>Thời gian xét duyệt hồ sơ xin visa du học Anh trung bình là 1 tháng. Tuy nhiên, Công ty tư vấn du học Bluesea khuyên bạn nên có sự chuẩn bị từ sớm để phòng tránh trường hợp Lãnh sự yêu cầu bổ sung giấy tờ sẽ làm kéo dài thời gian xét duyệt hồ sơ visa hơn. Mặt khác, việc hoàn thành hồ sơ thị thực sớm cũng giúp bạn chủ động về thời gian chuẩn bị tâm lý, hiểu biết, kiến thức nhằm tránh được những cú "sốc" văn hóa, tinh thần những ngày đầu sang Anh.</p>
+            <ul>Visa du học Anh có những loại cơ bản sau: 
+                <li><b>Thị thực học sinh nhỏ tuổi ngắn hạn</b> : Bạn có thể xin loại thị thực này nếu bạn 17 tuổi hoặc nhỏ hơn và có mong muốn đến học tại vương quốc Anh nhiều nhất là 6 tháng (hoặc 12 tháng nếu bạn đi cùng một khách người lớn với mục đích nghiên cứu hay học tập).</li>
+                <li><b>Thị thực sinh viên ngắn hạn</b> : Bạn có thể xin loại thị thực này nếu bạn 18 tuổi trở lên và bạn muốn đến học tại Anh nhiều nhất là 6 tháng. Nếu chỉ theo học các khoá tiếng Anh, bạn có thể xin gia hạn thị thực tới 11 tháng.</li>
+                <li><b>Thị thực học sinh nhỏ tuổi Tier 4</b> : Bạn có thể xin thị thực này nếu đang trong độ tuổi từ 4 - 17. Trong khoảng độ tuổi từ 4 – 15 thì học sinh xin thị thực phải đến Anh và học tập ở một trường tư thục có trả phí.</li>
+                <li><b>Thị thực sinh viên thông thường Tier 4</b> :  Loại visa này dành cho học sinh sinh viên từ 16 tuổi trở lên và tham gia khóa học kéo dài hơn 6 tháng tại Anh. Với visa Tier 4 này sinh viên sẽ được phép làm thêm trong thời gian học theo quy định của Cục biên giới Anh. Bạn có thể gia hạn visa sau khi nhập cư vào Anh với điều kiện trường mà bạn theo học chứng nhận khóa học mới của bạn là tiếp nối khóa học trước đó.</li>
+            </ul>
+            <h1>TOP NHỮNG TRƯỜNG ĐẠI HỌC TỐT NHẤT TẠI ANH QUỐC</h1>
+            <ol>
+                <li>University of Cambridge</li>
+                <li>University of Oxford</li>
+                <li>University of St. Andrews</li>
+                <li>Imperial College London</li>
+                <li>Loughborough University</li>
+                <li> Lancaster University</li>
+            </ol>
+            <h3>Du học Anh Quốc cần những gì ?</h3>
+            <ol>
+                <li>8 tấm ảnh 3.5x4.5 nền trắng</li>
+                <li>Passport (tất cả các trang)</li>
+                <li>Bằng cấp 3</li>
+                <li>Học bạ cấp 3</li>
+                <li>Bảng điểm đại học (nếu có)</li>
+                <li>Bằng đại học (nếu có)</li>
+                <li>Giấy xác nhận kinh nghiệm việc làm (nếu có)</li>
+                <li>IELTS hoặc các chứng chỉ tiếng Anh khác</li>
+            </ol>
+        </div>
+</body>
+</html>

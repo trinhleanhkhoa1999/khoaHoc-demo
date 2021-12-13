@@ -1,0 +1,150 @@
+.content-header
+{
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(./img/29493.jpg) no-repeat;
+  background-size: cover;
+  height: calc(70vh - 80px);
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  width: 85%;
+  padding: 0 8%;
+  
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+.text-box
+{
+  width: 90%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.row-mon
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  
+}
+.anh-col
+{
+  flex-basis: 44%;
+  padding: 25px;
+  cursor: pointer;
+  height: auto;
+  transition: all 0.2s linear;
+  border-radius: 10px;
+  text-align: center;
+  color: #000;
+  border: 10px solid #19981f;
+  width: fit-content;
+}
+.anh-col img{
+  width: 100%;
+}
+.khoahoc
+{
+  padding: 50px 8%;
+  
+  
+}
+#toán
+{
+  margin-left: 40%;
+}
+.anh-col img
+{
+  height: 300px;
+  width: 300px;
+  margin-left: 5px;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+.btn-1
+{
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    transition:  ease-out 0.3s;
+    font-size: 1rem;
+    outline: none;
+    border: 3px solid #19981f;
+    position: relative;
+    z-index: 1;
+     
+}
+.btn-1 :hover
+{
+    color: #fff;
+    cursor: pointer;
+}
+.btn-1:before
+{
+    transition:  0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #19981f;
+}
+.btn-1:hover:before
+{
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+.footerr
+{
+  height: 50px;
+  background-color: black;color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+.root {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.root li {
+  list-style: none;
+  background: pink;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  
+}
+.root li a {
+  text-decoration: none;
+  color: green;
+  padding: 0px 25px 0px 25px;
+  line-height: 40px;
+  display: block;
+  font-weight: 700;
+}
+.root li a:hover {
+  background: yellow;
+  padding: 0px 15px;
+}
+.root li a:hover {
+  color: red;
+}

@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Trang chủ-KTT Learning</title>
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <h2>K.T.TLearning</h2>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggle-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">Những lớp học phổ biến</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">Các câu hỏi thường gặp</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#instructors" class="nav-link">Các thành viên nhóm</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--showcase-->
+    <section class="bg-dark text-light p-5 p-md-4  text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-item-center justify-content-between">
+                <div>
+                    <h1> Lớp học <span class="text-info">Gia sư</span> thân thiện </h1>
+                    <p class="lead my-4">
+                        Tri thức là chìa khóa dẫn đến thành công
+                    </p>
+                    <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Đăng ký</button>
+                </div>
+                <img class="img-fluid w-30  d-none d-sm-block" src="img/fx.png" width="350px" alt="">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-warning text-black p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-item-center">
+                <h3 class="mb-3 mb-md-0">Tìm kiếm </h3>
+
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder=" Điền thông tin cần tìm...">
+                    <button class="btn btn-dark btn-lg" type="button">TÌM</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Boxes-->
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-info text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-calculator"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Toán
+                            </h3>
+                            <p class="card-text">
+                                info
+                            </p>
+                            <a href="#" class="btn btn-warning">Đọc thêm</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-success text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="fa fa-flask"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Hóa
+                            </h3>
+                            <p class="card-text">
+                                info
+                            </p>
+                            <a href="#" class="btn btn-warning">Đọc thêm</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-danger text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-book"></i>
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Anh Văn
+                            </h3>
+                            <p class="card-text">
+                                info
+                            </p>
+                            <a href="" class="btn btn-warning">Đọc thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--learn section -->
+
+    <section id="learn" class="p-5">
+        <div class="container">
+            <div class="row align-items center justify-content-between">
+                <div class="col-md">
+                    <img src="img/undraw_online_learning_re_qw08.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h2> Tham gia các lớp học <span class="text-primary">Online</span> </h2>
+                    <p class="lead">
+                        hình thức học online
+                        <br> Hãy tham gia các khóa học nào
+                    </p>
+                    <a href="indext.html" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i> Đọc thêm
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <section id="learn" class="p-5 bg-dark text-light">
+            <div class="container">
+                <div class="row align-items center justify-content-between">
+
+                    <div class="col-md p-5">
+                        <h2> Khóa <span class="text-warning">du học nước ngoài</span> </h2>
+                        <p class="lead">
+                            Hãy theo đuổi ước mơ , khám phá kiến thức của các quốc gia khác
+                        </p>
+                        <a href="Lý thuyết lập trình web- du học/webduhoc.html" class="btn btn-light mt-3">
+                            <i class="bi bi-chevron-right"></i> Đọc thêm
+                        </a>
+                    </div>
+                    <div class="col-md">
+                        <img src="img/undraw_journey_lwlj.svg" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Questions Accordion-->
+        <section id="questions" class="p-5">
+            <div class="container">
+                <h2 class="text-center mb-4">CÁC CÂU HỎI THƯỜNG GẶP</h2>
+                <div class="accordion accordion-flush" id="questions">
+                    <!--Item 1-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questions-one">
+                          Mình có lớp ôn thi Đại họa không?
+                        </button>
+                        </h2>
+                        <div id="questions-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                            <div class="accordion-body">
+                                <p class="lead">
+                                    Có
+                                </p>
+                                <a href="#" class="btn btn-light mt-3">
+                                    <i class="bi bi-chevron-right"></i> Đọc thêm
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Item 2-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questions-two">
+                          MÌnh đăng ký khóa học miễn phí ở đâu?
+                        </button>
+                        </h2>
+                        <div id="questions-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                            <div class="accordion-body">
+                                <p class="lead">
+                                    bạn hãy tìm hiểm thêm về phần đăng ký khóa học ở đây?
+                                </p>
+                                <a href="#" class="btn btn-light mt-3">
+                                    <i class="bi bi-chevron-right"></i> Đọc thêm
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Item 3-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questions-three">
+                                Bên mình có khóa đào tạo thi lấy bằng Ielts không?
+                        </button>
+                        </h2>
+                        <div id="questions-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                            <div class="accordion-body">
+                                <p class="lead">
+                                    Bên mình có hỗ trợ thi lấy bằng Ielts cho những bạn muốn băng ký.
+                                </p>
+                                <a href="#" class="btn btn-light mt-3">
+                                    <i class="bi bi-chevron-right"></i> Đọc thêm
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Instructors-->
+        <section id="instructors" class="p-5 bg-danger">
+            <div class="container">
+                <h2 class="text-center text-white">Những giáo viên của K.T.T Learning</h2>
+                <p class="lead text-center text-white mb-5">
+                    Các giáo viên được ưa thích nhất
+                </p>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="https://randomuser.me/api/portraits/men/15.jpg" class="rounded-circle mb-3" alt="">
+                                <h3 class="card-title mb-3"> GV VẬT LÝ</h3>
+                                <p class="card-text">
+                                    <b>Thầy</b><b><i> Trần Minh A</i></b>
+                                </p>
+                                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-instagram text-dark mmx-1"></i></a>
+                                <br>
+                                <a href="#" class="btn btn-warning">Đọc thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="https://randomuser.me/api/portraits/women/25.jpg" class="rounded-circle mb-3" alt="">
+                                <h3 class="card-title mb-3"> GV ANH VĂN</h3>
+                                <p class="card-text">
+                                    <b>Cô</b><b><i> Mỹ Ngọc H</i></b>
+                                </p>
+                                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-instagram text-dark mmx-1"></i></a>
+                                <br>
+                                <a href="#" class="btn btn-warning">Đọc thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="https://randomuser.me/api/portraits/men/20.jpg" class="rounded-circle mb-3" alt="">
+                                <h3 class="card-title mb-3"> GV TOÁN</h3>
+                                <p class="card-text">
+                                    <b>Thầy</b><b><i> Hồ Minh D</i></b>
+                                </p>
+                                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-instagram text-dark mmx-1"></i></a>
+                                <br>
+                                <a href="#" class="btn btn-warning">Đọc thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="https://randomuser.me/api/portraits/women/15.jpg" class="rounded-circle mb-3" alt="">
+                                <h3 class="card-title mb-3"> GV VĂN</h3>
+                                <p class="card-text">
+                                    <b>Cô</b> <b><i> Nguyễn Thị B</i></b>
+                                </p>
+                                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-instagram text-dark mmx-1"></i></a>
+                                <br>
+                                <a href="#" class="btn btn-warning">Đọc thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Instructors-->
+        <section id="instructors" class="p-5 bg-dark">
+            <div class="container">
+                <h2 class="text-center text-white">Thành viên nhóm</h2>
+                <p class="lead text-center text-white mb-5">
+                    Những sinh viên Huflit
+                </p>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="img/among-us-6008615__480.png" class="rounded-circle mb-3" width="128px" height="128px" alt="">
+                                <h3 class="card-title mb-3"> Trịnh Quốc Tuấn</h3>
+                                <p class="card-text">
+                                    trantuan041102@gmail.com
+                                </p>
+                                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-instagram text-dark mmx-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="img/among-us-6008615__480.png" class="rounded-circle mb-3" width="128px" height="128px" alt="">
+                                <h3 class="card-title mb-3"> Lê Đăng Khoa</h3>
+                                <p class="card-text">
+                                    ledangkhoa1211@gmail.com
+                                </p>
+                                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-instagram text-dark mmx-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                                <img src="img/among-us-6008615__480.png" class="rounded-circle mb-3" width="128px" height="128px" alt="">
+                                <h3 class="card-title mb-3"> Phan Lâm Chí Thông</h3>
+                                <p class="card-text">
+                                    thongphan0410gmail.com
+                                </p>
+                                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                <a href="#"><i class="bi bi-instagram text-dark mmx-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--map-->
+        <section class="p-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md">
+                        <h2 class="text-center mb-4">Thông tin liên hệ</h2>
+                        <ul class="list-group list-group-flush lead">
+                            <li class="list-group-item">
+                                <span class="fw-bold">
+                                    Địa chỉ công ty
+                                </span><br>63 Main st Hoang Van Thu
+                            </li>
+                            <li class="list-group-item">
+                                <span class="fw-bold">
+                                    Số điện thoại liên hệ
+                                </span><br>0933333333
+                            </li>
+                            <li class="list-group-item">
+                                <span class="fw-bold">
+                                    Mail sinh viên
+                                </span> <br>ledangkhoa1211@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted" style="background-color: #dfdfdf;">
+    <!-- Section: Social media -->
+    <section
+      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    >
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span><b style="color: black;">KTT LEARNING</b></span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="" >
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Về chúng tôi
+            </h6>
+            <p>
+              Chúng tôi luôn sẵn sàng cung cấp cho quý khách dịch vụ tốt nhất, tư vấn và hỗ trợ nhiệt tình,
+              lấy đóng góp của quý khách về chúng tôi để đặt lên hàng đầu, càng ngày càng tiến bộ để đáp ứng đầy đủ nhu cầu của quý khách.
+            </p>
+          </div>
+  <!-- Grid column -->
+  
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Liên hệ
+            </h6>
+            <p><i class="fas fa-home me-3"></i> 63 Main St Hoàng Văn Thụ</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              KTTLEARNINGSUPPORT@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> HOTLINE : 08 256 893</p>
+            <p><i class="fas fa-print me-3"></i> HOTLINE : 08 277 913</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: black;color: white;">
+      © 2021 Copyright By KTTLEARNING
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+        <!-- Modal -->
+        <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="enrollLabel">Đăng ký</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="lead">
+                            <b>Hãy điền đầy đủ thông tin trước khi đăng ký !</b>
+                        </p>
+                        <form>
+                            <div class="mb-3">
+                                <label for="full-name" class="col-form-label">
+                                    Họ và Tên
+                                </label>
+                                <input type="text" class="form-control" id="full_name" placeholder="Nhập họ và tên">
+                            </div>
+                            <div class="mb-3">
+                                <label for="Password" class="col-form-label">
+                                    Mật khẩu
+                                </label>
+                                <input type="password" class="form-control" id="password" placeholder="Nhập mật khẩu">
+                                <pre>                                            <sub>  ít nhất 6 ký tự</sub></pre>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="col-form-label">
+                                    Email
+                                </label>
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone number" class="col-form-label">
+                                    Số điện thoại
+                                </label>
+                                <input type="text" class="form-control" id="phoneNumber" placeholder="PhoneNumber">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                        <button type="button" onclick="register()" class="btn btn-primary">Lưu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+</body>
+
+</html>

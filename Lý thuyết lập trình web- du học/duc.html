@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    
+</head>
+<style>
+    #form-dn{
+        height: 400px;
+        width: 100%;
+        background-color: #8cec96;
+        position:relative;
+    }
+    .singapore{
+        background-color: blanchedalmond;
+    }
+    .container{
+        background-color:yellow;
+    }
+    .img-form{
+        width: 400px;
+        height: auto;
+    }
+    .comment-box{
+        height: 500px;
+        text-align: left;
+    }
+    .box1{
+        text-align: center;
+    }
+    .box3{
+        text-align: center;
+    }
+    .box2{
+        text-align: left;
+        margin-left: 200px;
+    }
+
+
+</style>
+<body>
+    <section class="menuhinh">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <div class="slide first">
+                    <img src="./images/duc.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./images/hinhduhoc1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./images/hinhduhoc3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./images/hinhduhoc4.jpg" alt="">
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+    </section>
+<br>
+<div class="comment-box">
+    <br>
+    <div class="box1">
+        <h2 style="color: red;">Đăng kí du học Đức</h2>
+    </div>
+    <div class="box2">
+    <form action="#">
+        Họ và Tên: <br>
+         <input type="text" name="full-name" placeholder="Tên của bạn..."><br>
+        Ngày sinh: <br>
+         <input type="datetime" name="full-name" placeholder="Ngày tháng năm sinh..."><br>
+        Số điện thoại: <br>
+         <input type="text" name="full-name" placeholder="Số điện thoại...">
+        <br>
+        Email của bạn: <br>
+         <input type="email" name="email" placeholder="Email của bạn...">
+        <br>
+    </div>
+    <div class="box3">
+        </form>
+            <tr>
+                <td class="lable">Hình thức :</td>
+                <td>
+                    <select name="hinhthuc">
+                    <option value="bantru">Bán trú</option>
+                    <option value="noitru">Nội trú</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="lable">Bạn muốn du học trong bao lâu ?</td>
+                <td>
+                    <select name="thoihan">
+                        <option value="motnam">1 năm</option>
+                        <option value="hainam">2 năm</option>
+                        <option value="banam">3 năm</option>
+                        <option value="bonnam">4 năm</option>
+                        <option value="namnam">5 năm</option>
+                        <option value="saunam">6 năm</option>
+                        <option value="baynam">7 năm</option>
+                        <option value="tamnam">8 năm</option>
+                        <option value="chinnam">9 năm</option>
+                        <option value="muoinam">10 năm</option>
+                    </select>
+                </td>
+            </tr>
+        <br>
+        <br>
+        
+           
+        <tr>
+            <td colspan = "2" style = "text-align: center">
+                <button type = "button" onclick="myFunction()">Đăng ký</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan = "2" id = "demo"></td>
+        </tr>
+        <br>
+    </form>
+</div>
+</div>
+    <script>
+        var x = document.getElementById("myText").value;
+        function myFunction() {
+        document.getElementById("myText").value;
+        document.getElementById(
+        "demo").innerHTML ="Chúc mừng "+ x +" .Bạn đã đăng kí thành công! Chúng tôi sẽ liên lạc vào số điện thoại và email mà bạn đã cung cấp để tư vấn miễn phí ạ. ";
+        }
+    </script>
+    <div class="malaysia">
+    <h1>Góc nhìn khái quát về du học Đức</h1>
+    <h2>Tại sao du học Đức? Có nên du học Đức không?</h2>
+    <h3>10 lý do tuyệt vời để du học Đức với tư cách là sinh viên nước ngoài</h3>
+    <ul>
+        <li>Giáo dục miễn phí ở hầu hết các trường đại học (và học phí rất thấp ở những trường khác).</li>
+        <li>Giáo dục đẳng cấp thế giới bởi đội ngũ nhân viên có trình độ cao.</li>
+        <li>Hàng trăm khóa học học thuật để bạn lựa chọn.</li>
+        <li>Đất nước thú vị để khám phá với một lịch sử sâu sắc.</li>
+        <li>Đa dạng văn hóa và sinh viên từ khắp nơi trên thế giới.</li>
+        <li>Thực hành nói cả tiếng Anh và tiếng Đức.</li>
+        <li>Cơ hội làm việc vô tận tại Đức sau khi bạn tốt nghiệp.</li>
+        <li>Bạn có thể học mọi môn bằng tiếng Anh, không cần nói tiếng Đức.</li>
+        <li>Chi phí sinh hoạt ở Đức phải chăng, trung bình khoảng 720-850 € bao gồm tiền thuê nhà, ăn uống, đi lại, bảo hiểm y tế, điện thoại / internet, tài liệu học tập và các hoạt động giải trí.</li>
+        <li>Cơ hội sống và khám phá một trong những quốc gia phát triển nhất thế giới với nền văn hóa, lịch sử và cảnh quan độc đáo của nó.</li>
+        <li>Để tăng cơ hội được nhận vào một trường đại học ở Đức</li>
+    </ul>
+    <h2>Hệ thống giáo dục Đức được cấu trúc như thế nào?</h2>
+    <ul>
+        <li>Giáo dục mầm non.</li>
+        <li>Giáo dục tiểu học.</li>
+        <li>Giáo dục trung học.</li>
+        <li>Giáo dục đại học và sau đại học.</li>
+        <li>Giáo dục thường xuyên.</li>
+    </ul>
+            <p><strong style="color: red;">Yêu cầu khi du học Đức </strong></p><br>
+            <p>Du học Đức, bạn có thể tìm thấy nhiều khóa học, chương trình cấp bằng và một số trường đại học được xếp hạng cao nhất trên thế giới. Gần 400.000 sinh viên quốc tế hiện đang theo đuổi chương trình học của mình tại Đức, khiến đất nước này trở thành một trong những lựa chọn hàng đầu cho sinh viên quốc tế. Đối với những người quan tâm đến việc theo đuổi một bằng cấp ở Đức, HISA đã tổng hợp một danh sách các yêu cầu mà bạn sẽ phải đáp ứng, cùng tham khảo dưới đây nhé.</p>
+            <h3><b>Du học Đức cần những điều kiện gì? </b></h3>
+
+            Để được nhận vào một trường đại học của Đức, bằng cấp của bạn phải được trường đại học bạn đã chọn công nhận. Điều này có nghĩa là bạn cần phải có ‘chứng chỉ đầu vào giáo dục đại học’ được công nhận, còn được gọi là Hochschulzugangsberechtigung (HZB) hoặc Abitur. Nếu chứng chỉ học của bạn không được công nhận ở Đức, bạn sẽ phải tham gia một khóa học dự bị kéo dài một năm được gọi là Studienkolleg .
+            Một số trường đại học cũng yêu cầu một bài kiểm tra năng khiếu , được gọi là TestAS, là bài kiểm tra được thiết kế đặc biệt cho sinh viên quốc tế đến từ các quốc gia không thuộc EU.
+            <h3><b>Du học đức cần ielts bao nhiêu? </b></h3>
+            <p>Yêu cầu về ngôn ngữ cũng nằm trong số các tiêu chí tuyển sinh của trường đại học. Nếu chương trình cấp bằng của bạn hoàn toàn bằng tiếng Đức, thì bạn sẽ được yêu cầu cung cấp bằng chứng về trình độ tiếng Đức như<strong>Deutsche Sprachprüfung für den Hochschulzugang (DSH) </strong>  hoặc <strong> TestDaF </strong> . Ngoài ra, nếu khóa học của bạn được giảng dạy bằng tiếng Anh và bạn không phải là người nói tiếng Anh bản ngữ, bạn sẽ được yêu cầu cung cấp điểm <strong>IELTS hoặc TOEFL </strong>. Thông thường Chương trình đại học:<strong> IELTS tối thiểu 6.5 </strong> và hoàn thành chương trình dự bị, tùy thuộc từng trường. <strong>Dự bị đại học: IELTS tối thiểu là 6.0 </strong>  và tốt nghiệp THPT hoặc sinh viên đại đọc.</p>
+
+            <h1>TOP NHỮNG TRƯỜNG ĐẠI HỌC TỐT NHẤT TẠI ĐỨC</h1>
+            <ul>
+                <li>Đại học Ludwig Maximilian Munich (LMU Munich)</li>
+                <li>Đại học Kỹ thuật Munich</li>
+                <li>Đại học Heidelberg </li>
+                <li>Đại học Humboldt Berlin</li>
+                <li>Đại học RWTH Aachen</li>
+            </ul>
+            <h3>Các tài liệu bạn thường cần là: </h3>
+            <ol>
+                <li>Một mẫu đơn đã được điền đầy đủ thông tin.</li>
+                <li>Bản sao công chứng bằng tốt nghiệp THPT.</li>
+                <li>Các chứng chỉ học thuật/ngoại khóa được công nhận có liên quan.</li>
+                <li>Bản dịch tổng quan về các tín chỉ và điểm của bạn.</li>
+                <li>Bảng điểm đại học (nếu có)</li>
+                <li>Bằng đại học (nếu có)</li>
+                <li>Bản sao hộ chiếu của bạn và một ảnh hộ chiếu.</li>
+                <li>IELTS hoặc các chứng chỉ tiếng Anh khác</li>
+            </ol>
+        </div>
+</body>
+</html>

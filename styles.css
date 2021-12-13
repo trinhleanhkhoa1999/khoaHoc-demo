@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.root {
+  display: flex;
+  justify-content: center;
+}
+.root li {
+  list-style: none;
+  background: pink;
+}
+.root li a {
+  text-decoration: none;
+  color: green;
+  padding: 0px 15px 0px 15px;
+  line-height: 40px;
+  display: block;
+  font-weight: 700;
+}
+.root li a:hover {
+  background: yellow;
+  padding: 0px 15px;
+}
+.root li a:hover {
+  color: red;
+}
+.bg_logo {
+  cursor: pointer;
+}
+.bg_logo img {
+  width: 100%;
+  height: 410px;
+}
+.titlee {
+  font-weight: bolder;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  line-height: 38px;
+  color: orange;
+  text-decoration: underline;
+}
+.box_title {
+  text-align: center;
+  color: tomato;
+}
+#box-content {
+  /* width: 80%; */
+  /* margin-left: 200px; */
+  margin-bottom: 24px;
+}
+.reason {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.reason-number {
+  font-size: 36px;
+  font-weight: 800;
+  padding-top: 36px;
+  padding-right: 24px;
+}
+
+.reason-content__box {
+  display: flex;
+  border: 1px solid #ccc;
+  background-color: rgb(196, 221, 228);
+  border-radius: 4px;
+  padding: 26px 24px;
+  width: 100%;
+}
+
+.reason-icon {
+  padding-right: 40px;
+  padding-left: 16px;
+  padding-top: 4px;
+  font-size: 60px;
+  color: #fff;
+  border-right: 1px solid #fff;
+}
+
+.reason-content {
+  padding-left: 40px;
+}
+
+.reason-content__header {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.reason-content__description {
+  padding-top: 6px;
+}
+.box-title {
+  text-align: center;
+  margin-top: 20px;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  line-height: 38px;
+  color: orange;
+}
+.title {
+  border: 1px solid #050505;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.gt {
+  color: white;
+  margin-bottom: 40px;
+}
+#bg {
+  width: 100%;
+}
+#bgcontent {
+  background-color: #f0f8ff;
+}
+.bgd {
+  background-color: #dcdcdc;
+  text-align: justify;
+  padding: 20px;
+}
+.picture {
+  width: 100%;
+  height: 365px;
+}
+#login {
+  background-color: #f0f8ff;
+}
+.fromRegister col-6 p-0 {
+  margin-top: -100px;
+}
+#noidung_Div1 {
+  width: 500px;
+}
+#noidung_name {
+  width: 100%;
+  height: 30px;
+}
+#noidung_phone {
+  width: 100%;
+  height: 30px;
+}
+#noidung_khuvuc {
+  width: 100%;
+  height: 30px;
+}
+#noidung_falculty {
+  width: 100%;
+  height: 30px;
+}
+#noidung_teacherkind {
+  width: 100%;
+  height: 30px;
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    
+</head>
+<style>
+    #form-dn{
+        height: 400px;
+        width: 100%;
+        background-color: #8cec96;
+        position:relative;
+    }
+    .singapore{
+        background-color: blanchedalmond;
+    }
+    .container{
+        background-color:yellow;
+    }
+    .img-form{
+        width: 400px;
+        height: auto;
+    }
+    .comment-box{
+        height: 500px;
+        text-align: left;
+    }
+    .box1{
+        text-align: center;
+    }
+    .box3{
+        text-align: center;
+    }
+    .box2{
+        text-align: left;
+        margin-left: 200px;
+    }
+
+
+</style>
+<section class="menuhinh">
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <div class="slide first">
+                <img src="./images/halan.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="./images/hinhduhoc1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./images/hinhduhoc3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="./images/hinhduhoc4.jpg" alt="">
+            </div>
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+</section>
+<div class="comment-box">
+    <br>
+    <div class="box1">
+        <h2 style="color: red;">Đăng kí du học Hà Lan</h2>
+    </div>
+    <div class="box2">
+    <form action="#">
+        Họ và Tên: <br>
+         <input type="text" name="full-name" placeholder="Tên của bạn..."><br>
+        Ngày sinh: <br>
+         <input type="datetime" name="full-name" placeholder="Ngày tháng năm sinh..."><br>
+        Số điện thoại: <br>
+         <input type="text" name="full-name" placeholder="Số điện thoại...">
+        <br>
+        Email của bạn: <br>
+         <input type="email" name="email" placeholder="Email của bạn...">
+        <br>
+    </div>
+    <div class="box3">
+        </form>
+            <tr>
+                <td class="lable">Hình thức :</td>
+                <td>
+                    <select name="hinhthuc">
+                    <option value="bantru">Bán trú</option>
+                    <option value="noitru">Nội trú</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="lable">Bạn muốn du học trong bao lâu ?</td>
+                <td>
+                    <select name="thoihan">
+                        <option value="motnam">1 năm</option>
+                        <option value="hainam">2 năm</option>
+                        <option value="banam">3 năm</option>
+                        <option value="bonnam">4 năm</option>
+                        <option value="namnam">5 năm</option>
+                        <option value="saunam">6 năm</option>
+                        <option value="baynam">7 năm</option>
+                        <option value="tamnam">8 năm</option>
+                        <option value="chinnam">9 năm</option>
+                        <option value="muoinam">10 năm</option>
+                    </select>
+                </td>
+            </tr>
+        <br>
+        <br>
+        
+           
+        <tr>
+            <td colspan = "2" style = "text-align: center">
+                <button type = "button" onclick="myFunction()">Đăng ký</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan = "2" id = "demo"></td>
+        </tr>
+        <br>
+    </form>
+</div>
+</div>
+    <script>
+        var x = document.getElementById("myText").value;
+        function myFunction() {
+        document.getElementById("myText").value;
+        document.getElementById(
+        "demo").innerHTML ="Chúc mừng "+ x +" .Bạn đã đăng kí thành công! Chúng tôi sẽ liên lạc vào số điện thoại và email mà bạn đã cung cấp để tư vấn miễn phí ạ. ";
+        }
+    </script>
+    <div class="malaysia">
+    <p><strong style="color: red;">Điều kiện du học Hà Lan </strong> dành cho học sinh sinh viên Việt Nam xét dựa trên học lực và khả năng tài chính. Trong đó, có sự khác biệt giữa bậc học, chuyên ngành tại trường nghiên cứu và khoa học ứng dụng.</p><br>
+    <p>Một số học sinh sinh viên thường tự hỏi “du học Hà Lan có khó không?”, câu trả lời là tùy theo khả năng vốn có của các bạn. Với 14 trường đại học nghiên cứu và 36 đại học khoa học ứng dụng, đào tạo đa ngành đa bậc học, Hà Lan mang đến cho du học sinh nhiều sự lựa chọn để cân nhắc. Lưu ý rằng, sinh viên quốc tế chỉ được nhập học từ bậc cử nhân tại xứ sở tulip. Đại học khoa học ứng dụng giảng dạy bám sát thực tế, chú trọng đào tạo nguồn nhân lực có thể làm việc trong các ngành nghề cụ thể. Chương trình tiến sĩ phổ biến tại các trường đại học nghiên cứu.</p>
+        <h1><b>YÊU CẦU HỌC LỰC</b></h1>
+        <p>Đại học nghiên cứu là các trường có định hướng đào tạo thiên về học thuật, tập trung nghiên cứu về cốt lõi vấn đề. Các khóa học cử nhân tại đây yêu cầu bạn tốt nghiệp trung học phổ thông, có IELTS tối thiểu 6.0/TOEFL iBT 80. Nếu muốn nhập học bậc thạc sĩ, bạn cần phải tốt nghiệp đại học, IELTS 6.5/TOEFL iBT 90, một số trường còn yêu cầu GMAT hoặc kinh nghiệm làm việc.<br>
+
+            Trong khi đó, đại học khoa học ứng dụng là những trường có giáo trình tiếp cận thực tế, chú trọng kỹ năng giải quyết vấn đề cụ thể. Chương trình cử nhân yêu cầu sinh viên hoàn thành chương trình trung học phổ thông, IELTS 6.0/TOEFL iBT 80. Đối với bậc học thạc sĩ, các trường yêu cầu sinh viên phải tốt nghiệp đại học, IELTS 6.5/TOEFL iBT 90, một số trường sẽ yêu cầu số năm kinh nghiệm làm việc. Hệ thống trường khoa học ứng dụng của Hà Lan không yêu cầu GMAT. Nếu sinh viên nhập học bậc cử nhân/thạc sĩ nhưng chưa đủ trình độ tiếng Anh thì có thể theo học chương trình dự bị tại các trường.</p>
+            <p><strong style="color: red;">Điều kiện du học Hà Lan </strong>khai giảng vào tháng 2 và tháng 9 hàng năm với hạn nộp hồ sơ lần lượt là cuối tháng 10 và tháng 5. Vậy hồ sơ du học Hà Lan cần những gì? Câu trả lời là bằng tốt nghiệp trung học phổ thông/giấy chứng nhận tốt nghiệp tạm thời, học bạ, chứng chỉ IELTS/TOEFL và hộ chiếu. Bạn có thể nộp kèm motivation letter, thư giới thiệu theo yêu cầu của trường. Sau khi hoàn thành thủ tục cho trường và nhận được thư mời nhập học, bạn sẽ tiến hành xin visa du học Hà Lan (có chứng minh tài chính).</p>
+            <h1><b>YÊU CẦU TÀI CHÍNH</b></h1>
+
+            Ngoài việc đáp ứng điều kiện đầu vào về học lực, khả năng tiếng Anh, học sinh sinh viên cần chứng minh rằng bản thân đủ tài chính cho thời gian du học Hà Lan. Ngoài học phí, sinh hoạt phí, bạn cũng cần chi trả các khoản về sách vở, dụng cụ học tập và bảo hiểm, cụ thể:
+            </p>
+            <ul>Học Phí :
+                <li>Dự bị tiếng Anh: 4.700 – 9.000 Euro/khóa</li>
+                <li>Dự bị đại học: 9.350 – 14.000 Euro/khóa</li>
+                <li>Dự bị thạc sĩ: 5.500 – 9.600 Euro/khóa</li>
+                <li>Đại học: 7.500 – 14.000 Euro/năm</li>
+                <li>Thạc sĩ: 8.000 – 20.000 Euro/năm</li>
+            </ul>
+            <ul>Sinh Hoạt Phí: 
+                <li>Thuê nhà: 300 – 600 Euro/tháng</li>
+                <li>Ăn uống, đi lại: 150 – 200 Euro/tháng</li>
+                <li>Sách vở, dụng cụ học tập: 300 – 600 Euro/năm</li>
+                <li>Bảo hiểm: 500 – 650 Euro/năm</li>
+            </ul>
+            <p>Sinh viên quốc tế được làm thêm 16 giờ/tuần với mức lương từ 6 – 15 Euro/giờ. Sau khi tốt nghiệp, sinh viên được ở lại Hà Lan 1 năm để tìm việc. Bên cạnh đó, các bạn còn có cơ hội nhận học bổng du học Hà Lan phổ biến ở mức 30 – 100% học phí nếu đạt thành tích học tập xuất sắc.</p>
+            <h1>TOP NHỮNG TRƯỜNG ĐẠI HỌC TỐT NHẤT TẠI HÀ LAN</h1>
+            <ul>
+                <li>Đại học Utrecht</li>
+                <li>Đại học Amsterdam (UvA)</li>
+                <li>Đại học Groningen </li>
+                <li>Đại học Leiden  </li>
+                <li>Đại học Wageningen (Wageningen UR) </li>
+                <li>Đại học công nghệ Delft (TU Delft)</li>
+            </ul>
+            <h3>Du học Hà Lan cần những gì ?</h3>
+            <ol>
+                <li>8 tấm ảnh 3.5x4.5 nền trắng</li>
+                <li>Passport (tất cả các trang)</li>
+                <li>Bằng cấp 3</li>
+                <li>Học bạ cấp 3</li>
+                <li>Bảng điểm đại học (nếu có)</li>
+                <li>Bằng đại học (nếu có)</li>
+                <li>Giấy xác nhận kinh nghiệm việc làm (nếu có)</li>
+                <li>IELTS hoặc các chứng chỉ tiếng Anh khác</li>
+            </ol>
+        </div>
+</body>
+</html>
